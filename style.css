@@ -101,7 +101,7 @@ h2,h5,h6,h3,p{
 
 #portfolio{
     background: #F8F9FC;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 }
 .portfolio-text{
     text-align: center;
@@ -150,3 +150,45 @@ h2,h5,h6,h3,p{
     margin-top: 0px;
 }
 
+/* work inquiry */
+#lets-chat{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.work-inquiry{
+    height: 140px;
+    background-image: linear-gradient(222deg, #4225B6,  #5D69E9);
+    width: 80%;
+    margin-left: 120px;
+    border-radius: 20px;
+}
+.work-inquiry::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.work-content{
+    float: left;
+    margin-left: 235px;
+}
+.work-content h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+}
+.work-btn{
+    float: left;
+    margin-left: 220px;
+    margin-top: 55px;
+}
+.chat-btn{
+    padding: 12px 27px;
+    background: #FF8063;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.chat-btn a{
+    text-decoration: none;
+    color: white;
+}
