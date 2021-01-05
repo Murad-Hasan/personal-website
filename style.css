@@ -6,6 +6,18 @@ h2,h5,h6,h3,p{
     font-family: 'Roboto', sans-serif;
 }
 /* manu */
+
+.left-icon {
+        float: left;
+}
+
+.left-icon h2 {
+    margin: 0px 75px;
+    font-size: 40px;
+}
+.left-icon span{
+    color:#b66537;
+}
 .header-manu ul{
     text-align: right;
     font-size: 25px;
