@@ -176,6 +176,59 @@ h2,h5,h6,h3,p{
     font-size: 14px;
     margin-top: 0px;
 }
+/* skill section */
+#skill-section{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.skill-titel h1 {
+    text-align: center;
+    color: #363958;
+    font-size: 45px;
+    font-weight: bold;
+}
+.single-skillbox {
+    float: left;
+    width: 29%;
+}
+
+.skill-box::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.single-skillbox {
+    margin-left: 48px;
+    margin-top: 21px;
+    border: none;
+    box-shadow: 5px 5px 10px #7b6969;
+    border-radius: 15px;
+    background: #ecf0f1;
+    height: 350px;
+}
+
+
+.fornt-img img {
+    max-width: 66%;
+    display: inline-block;
+}
+
+.fornt-img {
+    text-align: center;
+}
+
+.fornt-text p {
+    font-size: 17px;
+    text-align: justify;
+    font-family: cursive;
+}
+
+
+
+
+
 
 /* work inquiry */
 #lets-chat{
